@@ -5,8 +5,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectionFactory {
-    private static String user = System.getenv("FIAP_ORACLE_USER");
-    private static String password = System.getenv("FIAP_ORACLE_PASSWORD");
+    private static String user = "rm558887";
+    private static  String password = "030405";
 
     public static Connection obterConnection() {
         Connection conexao = null;
