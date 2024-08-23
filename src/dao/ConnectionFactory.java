@@ -5,8 +5,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectionFactory {
-    private static String user = "rm558887";
-    private static  String password = "030405";
+    private static String user = "LOGIN";
+    private static  String password = "SENHA";
 
     public static Connection obterConnection() {
         Connection conexao = null;
