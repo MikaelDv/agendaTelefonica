@@ -1,6 +1,6 @@
 package tests;
 
-import dao.ContatoDAO;
+import dao.ContatoDao;
 import models.Contato;
 
 import java.sql.SQLException;
@@ -11,8 +11,8 @@ public class TesteBuscaPorId {
         Scanner leitor = new Scanner(System.in);
 
         Contato contato = new Contato();
-        ContatoDAO dao = new ContatoDAO();
-        System.out.println("Digite o código do contato:");
+        ContatoDao dao = new ContatoDao();
+        System.out.println("Digite o código do contato: ");
         int cod = leitor.nextInt();
         try {
             contato = dao.buscarPorId(cod);
